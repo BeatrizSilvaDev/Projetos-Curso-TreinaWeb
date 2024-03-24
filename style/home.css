@@ -147,7 +147,7 @@ header{
 .porq {
     background-image:linear-gradient(var(--secundary), var(--primary));
     margin-top: -100px;
-    padding: 100px 0;
+    padding: 100px 0 150px 0;
     color: #fff;
     position: relative;
 }
@@ -178,5 +178,64 @@ header{
 .porq hr{
     width: 10%;
     border-color: rgba(255, 255, 255, 0.25);
-    
+}
+
+.porq-campos-item {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.porq-item {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.porq-item h4, .porq-item p {
+    margin: 0;
+}
+
+.porq-item div:first-child {
+    border: solid 2px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.porq-item i {
+    font-size: 40px;
+}
+
+/*Section faqs */
+.division-wave {
+    width: 100%;
+    height: 100px;
+    background-image: url('../img/wave.png');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom;
+    position: relative;
+    top: -50px;
+}
+
+.title-section-faqs{
+    text-align: center;
+    color: var(--dark-grey);
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+
+.title-section-faqs h2 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.title-section-faqs p {
+    font-size: 20px;
+}
+
+.title-section-faqs hr {
+    width: 10%;
+    margin: 0 auto;
 }
